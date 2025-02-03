@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Robots-Tag": "index, follow"
+      }
+    }
+  ]
+}
